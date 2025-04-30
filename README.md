@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LibraryManagementClientApp
 
-## Getting Started
+A modern frontend application built with **React**, **TypeScript**, and **Tailwind CSS** for managing books, users, and loans in a library system. This app connects to the backend API available at [LibraryManagementApi](https://github.com/Gaitan19/LibraryManagementApi) to perform all operations.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 📚 Register, view, and delete books and users
+- 🔄 Lend and return books with validation
+  - Users can borrow up to **3 books**
+  - Books already borrowed can't be lent again
+- 🔍 Filter books by availability and view users with active loans
+- 🖼️ Intuitive UI with responsive design using **Tailwind CSS**
+- 📢 Toast notifications using **React Toastify**
+- 🧩 Modal forms for user-friendly data input
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** + **TypeScript**
+- **Tailwind CSS** for styling
+- **Axios** for API requests
+- **React Toastify** for notifications
+- **Vite** or **Create React App** (depending on your setup)
+
+---
+
+## 🔧 Prerequisites
+
+Before running this app, make sure the backend API is running locally:
+
+📦 [LibraryManagementApi](https://github.com/Gaitan19/LibraryManagementApi)
+
+By default, the frontend expects the API to be available at: https://localhost:7299
+
+## ⚙️ Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Gaitan19/library-management-CientApp.git
+cd library-management-CientApp
 ```
+2. Install dependencies: npm install
+3. Running the App: npm run dev![screen](https://github.com/user-attachments/assets/e10514f0-3151-43f1-8159-951fcba15f8c)
+![Captura de pantalla 2025-04-30 110723](https://github.com/user-attachments/assets/d8b3ea5a-1cac-493f-8bb2-879e784e4b27)
+![Captura de pantalla 2025-04-30 110707](https://github.com/user-attachments/assets/70beb5b8-53c3-4dc9-8014-26091f74b180)
+![Captura de pantalla 2025-04-30 110643](https://github.com/user-attachments/assets/e451ed80-125a-4b8c-88b6-26fc95512e1b)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
