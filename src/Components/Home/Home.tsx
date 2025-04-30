@@ -94,7 +94,6 @@ export default function LibraryManagement() {
         pauseOnHover
       />
       
-      {/* Header */}
       <header className="mb-8 text-center">
         <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-green-500 mb-2 leading-[normal]">
           Library Management
@@ -102,9 +101,7 @@ export default function LibraryManagement() {
         <p className="text-gray-600">Manage your book collection and users</p>
       </header>
   
-      {/* Main Content */}
       <main className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
-        {/* Tabs */}
         <div className="flex border-b border-gray-200">
           <button
             onClick={() => setActiveTab("books")}
@@ -128,9 +125,7 @@ export default function LibraryManagement() {
           </button>
         </div>
   
-        {/* Content Area */}
         <div className="p-6">
-          {/* Add Button */}
           <button
             onClick={() => setIsModalOpen(true)}
             className="mb-8 px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 flex items-center hover:scale-105 transform"
