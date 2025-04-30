@@ -44,9 +44,9 @@ git clone https://github.com/Gaitan19/library-management-CientApp.git
 cd library-management-CientApp
 ```
 2. Install dependencies: npm install
-3. Running the App: npm run dev![screen](https://github.com/user-attachments/assets/e10514f0-3151-43f1-8159-951fcba15f8c)
-![Captura de pantalla 2025-04-30 110723](https://github.com/user-attachments/assets/d8b3ea5a-1cac-493f-8bb2-879e784e4b27)
-![Captura de pantalla 2025-04-30 110707](https://github.com/user-attachments/assets/70beb5b8-53c3-4dc9-8014-26091f74b180)
+3. Running the App: npm run dev
+4. app:
+![screen](https://github.com/user-attachments/assets/e10514f0-3151-43f1-8159-951fcba15f8c)
 ![Captura de pantalla 2025-04-30 110643](https://github.com/user-attachments/assets/e451ed80-125a-4b8c-88b6-26fc95512e1b)
 
 
